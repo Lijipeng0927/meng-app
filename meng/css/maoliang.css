@@ -1,0 +1,235 @@
+header{
+	width: 100%;
+	height: 2.72rem;
+	background-color: #fff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	/* overflow: hidden; */
+}
+main{
+	width: 100%;
+	background-color: #f2f4f3;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	position: absolute;
+	top: 2.72rem;
+	left: 0;
+	right: 0;
+	bottom: 1.53rem;
+	margin: auto;
+}
+footer{
+	width: 100%;
+	height: 1.53rem;
+	background-color: #fff;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 415368 */
+  src: url('http://at.alicdn.com/t/font_415368_kky29yex7d8wipb9.eot');
+  src: url('http://at.alicdn.com/t/font_415368_kky29yex7d8wipb9.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_415368_kky29yex7d8wipb9.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_415368_kky29yex7d8wipb9.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_415368_kky29yex7d8wipb9.svg#iconfont') format('svg');
+}
+.iconfont {
+    font-family:"iconfont" !important;
+    font-size:18px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+.h-t{
+	width: 100%;
+	height: .9rem;
+	background-color: #fff;
+	position: absolute;
+	top: .3rem;
+	left: 0;
+	display: block;
+}
+.t-1{
+	width: 2.8rem;
+	height: .39rem;
+	background-color: #fff;
+	margin-left: .32rem;
+	padding-top: .25rem;
+	float: left;
+
+}
+.t-1 a{
+	font-size: 13px;
+	color: #646464;
+	line-height: .45rem;
+	float: left;
+} 
+.t-1 select{
+	font-size: 12px;
+	color: #646464; 
+	float: left;
+	/* vertical-align: middle; */
+	margin-top: -.06rem;
+
+}
+.t-1 option{
+	line-height: 1.1;
+}
+.h-t input{
+	width: 6.34rem;
+	height: .84rem;
+	border-radius: 10px;
+	background-color: #f6f6f6;
+	font-size: 18px;
+	color: #989898;
+	margin-top: .02rem;
+	float: left;
+	
+}
+.t-2{
+	width: .9rem;
+	height: .9rem;
+	background-color: #fff;
+	float: left;
+	margin-left: .39rem;
+	text-align: center;
+	line-height: .7rem;
+	/* padding-top: .075rem; */
+}
+.t-2 i{	
+	color: #737373;
+	font-size: 20px;
+}
+.h-f{
+	width: 100%;
+	height: 1.2rem;
+	background-color: #fff;
+	position: absolute;
+	bottom: .03rem;
+	left: 0;
+}
+.h-f ul{
+	width: 16%;
+	height: 1.2rem;
+	background-color: #fff;
+	float: left;
+}
+.box{
+	font-size: 18px;
+	text-align: center;
+	line-height: 1.2rem;
+}
+.box1{
+	margin-left: 2%;
+	border-bottom: 1px solid #e73c82;
+}
+.box1 a{
+	color: #e73c82;
+}
+.box2{
+	margin-right: 2%;
+}
+.banner{
+	width: 100%;
+	height: 4.59rem;
+	background-color: yellowgreen;
+	margin-top: 0;
+	position: absolute;
+	top: 0rem;
+	left: 0;
+}
+.banner img{
+	width: 100%;
+	height: 100%;
+}
+.lunbo{
+	width: 1.1rem;
+	height: .14em;
+	background-color: rgba(223, 123, 3, 0);
+	position: absolute;
+	bottom: .29rem;
+	left: 5.09rem;
+}
+.bodian{
+	width: .14rem;
+	height: .14rem;
+	background-color: #515151;
+	border-radius: 50%;
+	float: left;
+	margin-right: .1rem;
+}
+.bodian1{
+	margin-right: 0;
+}
+.list{
+	width: 100%;
+	height: 1.7rem;
+	background-color: #fff9d7;
+	margin-top: 1rem;
+	position: absolute;
+	top: 3.55rem;
+	left: 0;
+}
+.list1{
+	width: 1.7rem;
+	height: 1.7rem;
+	background-color: #e2e2e2;
+	border-radius: 50%;
+	margin-left: .3rem;
+	float: left;
+	font-size: 18px;
+	line-height: 1.5rem;
+	text-align: center;
+}
+.list2{
+	margin-left: .55rem;
+}
+.shangpin{
+	width: 100%;
+	height: 4rem;
+	background-color: #62c6fa;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;	
+}
+.shangpin1{
+	margin-top: 1.6rem;
+}
+.shangpin-t{
+	width: 30%;
+	height: 4rem;
+	background-color: #fff;
+	float: left;
+}
+.shangpin-w{
+	width: 70%;
+	height: 4rem;
+	background-color: #f0f0f0;
+	float: right;
+	overflow: hidden;
+}
+.shangpin-w span{
+	width: 100%;
+	height: 1.3rem;
+	font-size: 18px;
+	color: black;
+	margin-left: 1.2rem;
+	line-height: 1rem;
+	white-space: nowrap;
+
+}
+.foot{
+	width: 25%;
+	height: 100%;
+	background-color: #fff;
+	border: 1px solid #62c6fa;
+	border-radius: 10px;
+	float: left;
+	font-size: 20px;
+	color: #6f6f6f;
+	text-align: center;
+	line-height: 1.53rem;
+	box-sizing: border-box;
+}

@@ -1,0 +1,225 @@
+header{
+	width: 100%;
+	height: 5rem;
+	background-color: blue;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.top-1{
+	width: 100%;
+	height: 1.5rem;
+	background-color: #ececec;
+}
+.top-1-1{
+	width: 1rem;
+	height: 1rem;
+	background-color: rgba(0, 0, 0, 0);
+	float: right;
+	margin-right: .2rem;
+	padding-top: .25rem;
+}
+.top-1-2{
+	width: 1rem;
+	height: 1rem;
+	background-color: rgba(0, 0, 0, 0);
+	float: right;
+	margin-right: .5rem;
+	padding-top: .25rem;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 416615 */
+  src: url('http://at.alicdn.com/t/font_416615_jh8b2up446de7b9.eot');
+  src: url('http://at.alicdn.com/t/font_416615_jh8b2up446de7b9.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_416615_jh8b2up446de7b9.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_416615_jh8b2up446de7b9.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_416615_jh8b2up446de7b9.svg#iconfont') format('svg');
+}
+.iconfont {
+    font-family:"iconfont" !important;
+    font-size:18px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+.top-1 i{
+	font-size: 26px;
+/* 	text-align: center;
+	line-height: 1rem; */
+}
+.top-2{
+	width: 100%;
+	height: 3.5rem;
+	background-color: #cacaca;
+	overflow: hidden;
+}
+.touxiang{
+	width: 2.5rem;
+	height: 2.5rem;
+	background-color: black;
+	border-radius: 50%;
+	margin-top: .5rem;
+	margin-left: .5rem;
+	float: left;
+}
+.touxiang img{
+	width: 2.5rem;
+	height: 2.5rem;
+	border-radius: 50%;
+}
+.tx-wenzi{
+	width: 1.5rem;
+	height: 1rem;
+	/* background-color: rgba(0, 0, 0, 0); */
+	float: left;
+	margin-top: 1.2rem;
+	font-size: 18px;
+	color: black;
+	text-align: center;
+	line-height: 1.5rem;
+}
+.tx-wenzi1{
+	width: .5rem;
+	height: 1rem;
+	/* background-color: #fff; */
+}
+main{
+	width: 100%;
+	background-color: #f2f4f3;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	position: absolute;
+	top: 5rem;
+	left: 0;
+	right: 0;
+	bottom: 1.53rem;
+	margin: auto;
+}
+.gelist{
+	width: 100%;
+	height: 3.5rem;
+	background-color: black;
+}
+.gelist-t{
+	width: 100%;
+	height: 1.73rem;
+	background-color: pink;
+	border-bottom: 1px solid black;
+}
+.gt{
+	width: 25%;
+	height: 100%;
+	background-color: #fff;
+	float: left;
+	font-size: 18px;
+	text-align: center;
+	line-height: 1.73rem;
+	color: #555555;
+}
+.gelist-f{
+	width: 100%;
+	height: 1.73rem;
+	background-color: yellow;
+	border-bottom: 1px solid black;
+}
+.gf{
+	width: 25%;
+	height: 100%;
+	background-color: #fff;
+	float: left;
+	font-size: 18px;
+	text-align: center;
+	line-height: 1.73rem;
+	color: #555555;
+}
+.relist1{
+	width: 100%;
+	height: 4rem;
+	background-color: #fff;
+	margin-top: .3rem;
+}
+.re-1{
+	width: 100%;
+	height: 1rem;
+	background-color: #fff;
+	border-bottom: 1px solid #555555;
+	font-size: 18px;
+	color: #555555;
+	text-align: left;
+	line-height: 1rem;
+	padding-left: .63rem;
+}
+.relist2{
+	width: 100%;
+	height: 3rem;
+	background-color: #fff;
+	margin-top: .3rem;
+}
+.re-2{
+	width: 100%;
+	height: 1rem;
+	background-color: #fff;
+	border-bottom: 1px solid #555555;
+	font-size: 18px;
+	color: #555555;
+	text-align: left;
+	line-height: 1rem;
+	padding-left: .63rem;
+}
+.relist3{
+	width: 100%;
+	height: 2rem;
+	background-color: #fff;
+	margin-top: .3rem;
+}
+.re-3{
+	width: 100%;
+	height: 1rem;
+	background-color: #fff;
+	border-bottom: 1px solid #555555;
+	font-size: 18px;
+	color: #555555;
+	text-align: left;
+	line-height: 1rem;
+	padding-left: .63rem;
+}
+.relist4{
+	width: 100%;
+	height: 1rem;
+	background-color: #fff;
+	margin-top: .3rem;
+}
+.re-4{
+	width: 100%;
+	height: 1rem;
+	background-color: #fff;
+	border-bottom: 1px solid #555555;
+	font-size: 18px;
+	color: #555555;
+	text-align: left;
+	line-height: 1rem;
+	padding-left: .63rem;
+}
+footer{
+	width: 100%;
+	height: 1.53rem;
+	background-color: #fff;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+
+}
+.foot{
+	width: 24.55%;
+	height: 100%;
+	background-color: #fff;
+	border: 1px solid #62c6fa;
+	border-radius: 10px;
+	float: left;
+	font-size: 20px;
+	color: #6f6f6f;
+	text-align: center;
+	line-height: 1.53rem;
+	box-sizing: border-box;
+}

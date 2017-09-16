@@ -1,0 +1,186 @@
+/*
+* @Author: lenovo
+* @Date:   2017-09-09 10:17:58
+* @Last Modified by:   lenovo
+* @Last Modified time: 2017-09-13 12:22:38
+*/
+header{
+	width: 100%;
+	height: 6.1rem;
+	background-color: #918be1;
+	position: fixed;
+	/* overflow: hidden; */
+	/* margin-top: 0;
+	margin-left: 0; */
+}
+main{
+	position: absolute;
+	top: 6.68rem;
+	left: .55rem;
+	width: 9.7rem;
+	/* height: 100%; */
+	background-color: #fff;
+	overflow: hidden;
+}
+/* footer{
+	width: 100%;
+	height: 1rem;
+	background-color: yellowgreen;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+} */
+.head-topz{
+	width: .66rem;
+	height: .66rem;
+	background-color: #918be1;
+	position: absolute;
+	left: .6rem;
+	top: .5rem;
+}
+.head-topz i{
+	display: block;
+	line-height: .6rem;
+	text-align: center;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 410695 */
+  src: url('http://at.alicdn.com/t/font_410695_lokat0ksadsll3di.eot');
+  src: url('http://at.alicdn.com/t/font_410695_lokat0ksadsll3di.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_410695_lokat0ksadsll3di.woff') format('woff'),
+  url('http:http://at.alicdn.com/t/font_410695_lokat0ksadsll3di.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_410695_lokat0ksadsll3di.svg#iconfont') format('svg');
+}
+.iconfont {
+    font-family:"iconfont" !important;
+    font-size:20px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+.head-center{
+	width: 1.86rem;
+	height: .75rem;
+	background-color: #918be1;
+	position: absolute;
+	left: 4.47rem;
+	top: 2.4rem;
+	font-size: 32px;
+	text-align: center;
+	line-height: .75rem;
+}
+.box1{
+	width: 100%;
+	height: 1.36rem;
+	background-color: #4bb18c;
+	position: absolute;
+	bottom: 0;
+}
+.box1-1{
+	width: 3rem;
+	height: .8rem;
+	background-color: #4bb18c;
+	position: relative;
+	margin-left: 1.5rem;
+	margin-top: .3rem;
+	float: left;
+	line-height: .8rem;
+	text-align: center;
+	font-size: 18px;
+}
+.box1-2{
+	width: 3rem;
+	height: .8rem;
+	background-color: #4bb18c;
+	position: relative;
+	margin-right: 1.5rem;
+	margin-top: .3rem;
+	float: right;
+	line-height: .8rem;
+	text-align: center;
+	font-size: 18px;
+}
+.box2{
+	background-color: #fff;
+	padding-top: .58rem;
+	margin: 0 auto;
+	height: 1.4rem;
+	border-bottom: 1px solid #000;
+	font-size: 20px;
+	color: #e4e4e4;
+	line-height: 1.4rem;
+}
+input{
+	width: 8rem;
+	height: 1.2rem;
+	background-color: #fff;
+
+}
+.box3{
+	height: 1.2rem;
+	background-color: #10c155;
+	border-radius: .15rem;
+	margin-top: .46rem;
+	font-size: 20px;
+	line-height: 1.35rem;
+	text-align: center;
+	color: #fff;
+}
+.box4{
+	width: 50%;
+	height: 1rem;
+	background-color: #fff;
+	margin-top: .54rem;
+	font-size: 20px;
+	line-height: 1rem;
+	color: #aeaeae;
+	text-align: left;
+	float: left;
+}
+.box5{
+	width: 50%;
+	height: 1rem;
+	background-color: #fff;
+	margin-top: .54rem;
+	font-size: 20px;
+	line-height: 1rem;
+	color: #aeaeae;
+	text-align: right;
+	float: left;
+}
+.box6{
+	height: 1.58rem;
+	background-color: #fff;
+	margin-top: 2.5rem;
+}
+.box6-1{
+	width: 1.54rem;
+	height: 1.54rem;
+	background-color: #fff;
+	border-radius: 50%;
+	float: left;
+	margin-left: .93rem;
+}
+.box6-2{
+	margin-right: .37rem;
+}
+.box6-3{
+	margin-left: .37rem;
+}
+.iconfont1{
+	font-size: 54px;
+	color: #0fd31a;
+}
+.iconfont2{
+	font-size: 54px;
+	color: #4ac9fe;
+}
+.iconfont3{
+	font-size: 54px;
+	color: #e6162c;
+}
+.iconfont4{
+	font-size: 54px;
+	color: #00a0e8;
+}
